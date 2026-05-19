@@ -4,7 +4,7 @@ A desktop automation tool designed for Minecraft gameplay enhancement, featuring
 
 ---
 
-# Overview
+# Description
 
 This project is a Qt-based desktop application focused on input automation and timing control.  
 It was developed as a learning project to explore event-driven programming, UI design, and system-level interaction concepts.
