@@ -1,86 +1,80 @@
-# ⛏️ Minecraft Auto Clicker & Automation Tool (Qt C++)
+# Minecraft Auto Clicker & Automation Tool 
 
-A desktop automation tool designed for Minecraft gameplay enhancement, featuring advanced clicking patterns, configurable automation modes, and a built-in license validation system.
+A desktop automation tool designed for Minecraft gameplay enhancement, featuring configurable clicking patterns, automation modes, and a built-in license validation system.
 
 ---
 
-## ⚙️ Features
+# Overview
 
-### 🖱️ Advanced Auto Clicking
+This project is a Qt-based desktop application focused on input automation and timing control.  
+It was developed as a learning project to explore event-driven programming, UI design, and system-level interaction concepts.
+
+The tool provides configurable auto-clicking behavior with different patterns and a simple license-based access system.
+
+---
+
+# Features
+
+## Mouse Automation
 - Adjustable CPS (Clicks Per Second)
 - Multiple clicking modes:
-  - Constant clicking
+  - Constant clicking mode
   - Randomized jitter clicking
-  - Sinusoidal click variation (wave-based CPS fluctuation)
-- Human-like behavior simulation to reduce pattern predictability
+  - Wave-based (sinusoidal) CPS variation
+- Timing control using Qt event system
+- Configurable delay and intervals
 
 ---
 
-### 🎮 Minecraft Automation Features
-- Gameplay-oriented automation presets
-- Configurable timing profiles
-- Optimized for in-game usage scenarios
+## Automation System
+- Preset-based configuration profiles
+- Real-time activation and control
+- Custom timing behavior for different use cases
+- Lightweight event-driven architecture
 
 ---
 
-### 🔐 License System
-- Built-in license verification system
-- Key-based authentication
-- Time-limited licenses (expiry-based access)
-- Encrypted internal key validation logic
-- Prevents unauthorized usage outside licensed environment
+## License System
+- Key-based authentication system
+- Time-limited license validation
+- Internal key verification logic
+- Access restriction for unauthorized usage
+- Expiration date handling
 
 ---
 
-## 🎨 UI / UX
-- Clean Qt-based interface
-- Dark theme optimized for long usage
-- Simple controls for fast configuration
-- Real-time status feedback
+# Technologies Used
 
----
-
-## 🛠️ Technologies
 - C++
-- Qt (Widgets)
-- QTimer / event-driven architecture
-- Custom encryption / key validation logic
+- Qt Creator
+- Custom validation logic (license system)
 
 ---
 
-### License System
-Access is controlled using:
-- Unique license keys
-- Internal encryption validation
-- Expiration date checks
-- Time-based access enforcement
+# Notes
 
----
-
-## 📌 Notes
-
-This project was developed as a study of:
+This project focuses on:
 - Qt application development
-- Input automation systems
-- Basic cryptographic license validation concepts
+- Automation logic and timing systems
 - UI/UX design for desktop tools
+- Basic concepts of secure access control systems
+- Event-driven programming in C++
 
 ---
 
-## 📸 Screenshots
+# Screenshots
 
-### Main Window
+## Main Window
 ![Main Window](screenshots/main.png)
 
+---
+
+# Project Status
+
+Completed as a personal learning project.
 
 ---
 
-## ⚠️ Disclaimer
+# Disclaimer
 
-This tool was created for educational purposes and personal use in controlled environments.
-
----
-
-## 👨‍💻 Author
-
-Student C++ / Qt project focused on automation, UI design, and system logic.
+This tool was created for educational purposes, focusing on software development concepts, UI design, and automation logic in a controlled environment.
